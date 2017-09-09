@@ -1,0 +1,22 @@
+/*YUI reset*/
+body, div, dl, dt, dd, ul, ol, li, h3, h4, h5, h5, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {margin: 0;padding: 0;}table {border-collapse: collapse;border-spacing: 0;}fieldset, img {border: 0;}address, caption, cite, code, dfn, em, strong, th, var {font-style: normal;font-weight: normal;}ol, ul {list-style: none;}caption, th {text-align: left;}h3, h4, h5, h5, h5, h6 {font-size: 100%;font-weight: normal;}q:before, q:after {content: '';}abbr, acronym {border: 0;}/*==========*/
+
+body,html {margin:0;padding:0;width:100%;height:100%;position:relative;}
+body {font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;background:#F63;}
+
+
+#kirinsampler {}
+
+ul#drumpad {list-style-type:none;}
+ul#drumpad li{display:block;float:left;margin:0;padding:0;}
+ul#drumpad li a {display:block;background:#999;border-radius:10px;box-shadow:0 2px 5px rgba(0,0,0,0.5);text-align:center;color:#333;text-decoration:none;
+background: -moz-linear-gradient(top, #fff, #F1F1F1 1%, #F1F1F1 50%, #DFDFDF 99%, #ccc);  
+background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #F1F1F1), color-stop(0.5, #F1F1F1), color-stop(0.99, #DFDFDF), to(#ccc)); font-weight:bold;text-shadow:0 2px 2px rgba(0,0,0,0.1) ;opacity:0.85;}
+ul#drumpad li a:hover {opacity:1;}
+
+
+#kirinsampler {background:url(../img/bkg_phone.jpg) top no-repeat;background-size:cover;}
+ul#drumpad {position:absolute;bottom:10px;margin:0 auto;width:100%;}
+ul#drumpad li{width:33%;height:100px;padding:;font-size:18px;letter-spacing:-2px;}
+ul#drumpad li a {width:90%;height:90%;margin:0 auto;line-height:90px;}
+

@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Kirinsampler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kirinsampler-1142.firebaseapp.com" />
+  <meta property="og:title" content="きりんさんぷらー" />
+  <meta property="og:description" content="いつでもどこでもだれとでも。いいよね。きりんさん。" />
+  <meta property="og:image" content="https://kirinsampler-1142.firebaseapp.com/icons/512.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@kirinsan_org" />
+  <meta name="twitter:title" content="きりんさんぷらー" />
+  <meta name="twitter:description" content="いつでもどこでもだれとでも。いいよね。きりんさん。" />
+  <meta name="twitter:image" content="https://kirinsampler-1142.firebaseapp.com/icons/512.png" />
+  <link rel="manifest" href="manifest.json">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="kirinsampler">
+
+  <ul id="drumpad">
+    <li><a href="javascript:void(0)" data-sound="kirinsan1,kirinsan2,kirinsan3,kirinsan4">きりんさん</a></li>
+    <li><a href="javascript:void(0)" data-sound="iiyone1,iiyone2">いいよね</a></li>
+    <li><a href="javascript:void(0)" data-sound="yonju1,yonju2,yonju3,yonju4">40cm</a></li>
+    <li><a href="javascript:void(0)" data-sound="unvoa1,unvoa2,unvoa3,unvoa4,unvoa5">ウンヴォア！</a></li>
+    <li><a href="javascript:void(0)" data-sound="yeah1,yeah2,yeah3,yeah4">Yeah</a></li>
+    <li><a href="javascript:void(0)" data-sound="ze1,ze2,ze3,ze4,ze5">ぜ〜</a></li>
+    <li><a href="javascript:void(0)" data-sound="kara">から〜</a></li>
+    <li><a href="javascript:void(0)" data-sound="ne1,ne2,ne3,ne4,ne5">ね〜</a></li>
+    <li><a href="javascript:void(0)" data-sound="kubiganagaino">首が長いの</a></li>
+    <li><a href="javascript:void(0)" data-sound="nagainda">長いんだ</a></li>
+    <li><a href="javascript:void(0)" data-sound="tsunomoaruno">ツノもあるの</a></li>
+    <li><a href="javascript:void(0)" data-sound="oshimai">おしまい</a></li>
+  </ul>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBYHlwj1FSj8A_TSIfcdJBSTwCvYKUM4UE",
+      authDomain: "kirinsampler-1142.firebaseapp.com",
+      databaseURL: "https://kirinsampler-1142.firebaseio.com",
+      projectId: "kirinsampler-1142",
+      storageBucket: "",
+      messagingSenderId: "785409348564"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
